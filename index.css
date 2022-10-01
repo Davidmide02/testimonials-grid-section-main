@@ -1,0 +1,138 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    margin: auto;
+    background-color: hsl(210, 46%, 95%);
+    padding: 6em 2rem;
+    font-size: 0.8125rem;
+    font-family: "Barlow Semi Condensed";
+}
+
+.attribution {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 2em;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1em;
+    margin: auto;
+}
+
+div {
+    border: none;
+    border-radius: 0.5rem;
+}
+
+
+.flex-img-text {
+    display: flex;
+}
+
+.img-face {
+    border: 3px solid hsl(0, 0%, 81%);
+    border-radius: 50%;
+}
+
+.title-texts {
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.verified {
+    color: hsl(0, 0%, 50%);
+}
+
+h5 {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    padding-right: 4.5rem;
+}
+
+.white {
+    color: hsl(0, 0%, 70%);
+}
+     
+.black{
+    color: hsl(11, 11%, 70%);
+}
+
+
+.dan {
+    grid-column: span 2;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(263, 55%, 52%);
+    box-shadow: 5px 5px 5px hsl(0, 0%, 81%);
+    padding: 2em 3em 2em 2em;
+    position: relative;
+    background-image: url(/images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position-x: 20rem;
+    background-position-y: 1rem;
+
+}
+
+.jon {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(217, 19%, 35%);
+    box-shadow: 5px 5px 5px hsl(0, 0%, 81%);
+    padding: 2em 3em 2em 2em;
+}
+
+.kir {
+    color: hsl(11, 11%, 11%);
+    background-color: hsl(0, 0%, 100%);
+    grid-row: span 2;
+    box-shadow: 5px 5px 5px hsl(0, 0%, 81%);
+    padding: 2em 3em 2em 2em;
+}
+
+.jea {
+    color: black;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 5px 5px 5px hsl(0, 0%, 81%);
+    padding: 2em 3em 2em 2em;
+}
+
+.pat {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(219, 29%, 14%);
+    grid-column: span 2;
+    box-shadow: 5px 5px 5px hsl(0, 0%, 81%);
+    padding: 2em 3em 2em 2em;
+}
+
+/* Responsiveness */
+
+@media screen and (max-width: 480px) {
+
+    main{
+        display: block;
+    }
+    .dan{
+        background-position-x: 15rem;
+    }
+
+    h5{
+        padding-right: 4.5rem ;
+    }
+
+    .dan, .jea, .jon, .kir, .pat{
+        margin-bottom: 1rem;
+    }
+}
+
+
+
+
