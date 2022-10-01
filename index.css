@@ -76,7 +76,7 @@ h5 {
     box-shadow: 5px 5px 5px hsl(0, 0%, 81%);
     padding: 2em 3em 2em 2em;
     position: relative;
-    background-image: url(/bg-pattern-quotation.svg);
+    background-image: url(./bg-pattern-quotation.svg);
     background-repeat: no-repeat;
     background-position-x: 20rem;
     background-position-y: 1rem;
