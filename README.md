@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](/images/Desktopview.jpeg)
-![](/images/Mobileview.jpeg)
+![](./Desktopview.jpeg)
+![](./Mobileview.jpeg)
 
 
 
@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://davidmide02/testimonials-grid-section-main/)
+- Live Site URL: [Add live site URL here](https://davidmide02.github.io/testimonials-grid-section-main/)
 
 ## My process
 -Analyized the Layout
